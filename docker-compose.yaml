@@ -1,0 +1,14 @@
+version: '3'
+services:
+  database:
+    image: postgres:11-alpine
+    environment:
+      - POSTGRES_DB=forumapi
+      - POSTGRES_USER=forumapi_user
+      - POSTGRES_PASSWORD=forumapi_pass
+    ports:
+      - '5433:5432'
+    volumes:
+      - db-data:/var/lib/postgresql/data
+volumes:
+  db-data:
