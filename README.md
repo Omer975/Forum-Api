@@ -1,7 +1,7 @@
 # FORUM
 ## Introduction
 
-In this project created the backend for a developer news site where users can **create articles, comment them**.
+This Forum-Api project is an individual project conducted within the scope of training conducted by Software Development Academy (SDA), KTU and Novare Potential. In this project created the backend for a developer news site where users can **create articles, comment them**.
 ## Objectives
 
 Using the basic structure of a Spring application, building, testing and consuming rest APIs , ORM (object relational mapping)  and fundamental software design principles.
